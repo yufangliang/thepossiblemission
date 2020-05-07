@@ -1,4 +1,4 @@
-# thepossiblemission
+# the Possible Mission
 An experiment project for teaching strategy/material design
 
 
