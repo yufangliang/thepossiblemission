@@ -1,0 +1,37 @@
+{
+  "name": "vuetify-app",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Yufang <ufang.liang@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "function-plot": "^1.19.1",
+    "vue": "^2.6.11",
+    "vuetify": "^0.17.7",
+    "vuex": "^3.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.2.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.7.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.5"
+  }
+}
